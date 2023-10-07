@@ -1,0 +1,66 @@
+.app {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh
+}
+
+.success-text {
+  color: green
+}
+
+.error-text {
+  color: red
+}
+
+.item-selector {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-selector-padding {
+  box-sizing: border-box;
+  margin: 10px
+}
+
+.selected-items-container {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+  margin-top: 20px;
+}
+
+.selected-items-title {
+  margin-right: 10px;
+}
+
+.selected-items {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10px;
+  align-items: flex-start;
+}
+
+.total-cost-container {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.total-cost {
+  margin-left: 8px;
+  font-weight: bold;
+}
+
+.submit-btn {
+  max-width: fit-content;
+}
+
+.submit-btn-container {
+  display: flex;
+  justify-content: center;
+}
